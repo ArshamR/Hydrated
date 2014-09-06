@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:background="@color/Blue"
+    android:orientation="horizontal" >
+   
+    <Button
+        android:id="@+id/StopBtn"
+        android:layout_column="0"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="3"
+        android:textColor="@drawable/button_press"
+			android:textSize="20sp"
+			android:layout_width="90dp"
+			android:layout_height="50dp"
+			android:background="@drawable/buttonshape"
+        android:text="Stop" />
+
+    <TextView
+        android:id="@+id/Excersize"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="50dp"
+        android:layout_row="2"
+        android:text="Exercise"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/sleep"
+        android:layout_column="0"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_row="3"
+        android:textColor="@drawable/button_press"
+		android:textSize="20sp"
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:background="@drawable/buttonshape"
+        android:text="Sleep" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="80dp"
+        android:layout_row="3"
+        android:textColor="@drawable/button_press"
+		android:textSize="20sp"
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:background="@drawable/buttonshape"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:text="Press calculate to begin\n\nPress sleep to stop notifcations until you wake up"
+        android:textSize = "15dp" 
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/StartBtn"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="45dp"
+        android:layout_row="3"
+        android:background="@drawable/buttonshape"
+        android:text="Start"
+        android:textColor="@drawable/button_press"
+        android:textSize="20sp" />
+
+</GridLayout>

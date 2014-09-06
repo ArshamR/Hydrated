@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hydrated</string>
+    <string name="action_settings">Settings</string>
+   
+    <string name="choose">What\'s your gender</string>
+    
+    
+    <string-array name="Gender">
+     <item>Male</item>
+        <item>Female</item>
+	</string-array>
+	
+     <string-array name="Times">
+     <item>Male</item>
+        <item>Female</item>
+	</string-array>
+	
+
+</resources>
